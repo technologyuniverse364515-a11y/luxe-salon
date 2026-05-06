@@ -17,7 +17,7 @@ const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/luxe-salon">
         <ScrollToTop />
         <Routes>
           <Route element={<Layout />}>
